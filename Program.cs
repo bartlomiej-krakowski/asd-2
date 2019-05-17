@@ -25,8 +25,6 @@ namespace ConsoleApplication1
                 isPrime(array[i]);
                 time.Stop();
 
-                long timeDiff = time.ElapsedTicks;
-
                 Console.WriteLine((array[i]) + ";" + time.ElapsedTicks + ";" + isPrimeInstr(array[i], count));
             }
         }
