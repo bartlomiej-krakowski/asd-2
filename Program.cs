@@ -39,11 +39,6 @@ namespace ConsoleApplication1
                 {
                     if (Num % u == 0) return false;
                 }
-            
-            /* for (BigInteger u = 3; u * u <= Num / 2; u += 2)
-                {
-                    if (Num % u == 0) return false;
-                } */
 
             return true;
         }
